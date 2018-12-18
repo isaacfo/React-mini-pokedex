@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/DetailView.css';
 
 const DetailView = ({pokemon}) => {
-    const {id, name, sprite, type} = pokemon;
+    const {id, name, sprite, type, ability} = pokemon;
 
   return (
     <section className="detail-view">
@@ -10,6 +10,7 @@ const DetailView = ({pokemon}) => {
       <div className='data-wrapper'>
         <h1 className='data-name'>#: {id} {name}</h1>
         <p className="data-char">Type: {type}</p>
+        <p className="data-chars">Ability: {ability}</p>
       </div>
     </section>
   )

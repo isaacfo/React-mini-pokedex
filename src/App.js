@@ -6,7 +6,9 @@ import Pokemon from './Pokemon';
 
 
 class App extends Component {
+  // constructor: where we initialize our state
   constructor() {
+    // In the constructor, we always have to call the super() function since we are extending from the component class.
     super();
     this.state = {
       pokemon:{}
@@ -25,6 +27,7 @@ handleOnClick(id) {
   })
   .catch(err => console.log(err))
 } 
+//  The render method. This method always returns jsx syntax, which is a mix of javaScript and html. The render method can only return one element so we need to create a parent element and nest children inside. If we are returning a nested element we need to wrap it with parentheses.
 
   render() {
     return (
