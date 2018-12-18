@@ -603,8 +603,8 @@ export const pokeClasses = [
       id: "151",
       backgroundPosition: "-18820px 0",
     },
-    { id: "152",
-      backgroundPosition: "-18945px 0"
-    }
+    // { id: "152",
+    //   backgroundPosition: "-18945px 0"
+    // }
   ];
   
