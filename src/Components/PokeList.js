@@ -4,6 +4,10 @@ import { pokeClasses } from '../pokeClasses';
 import './styles/PokeList.css'; 
 
 
+
+
+
+
 const PokeList = ({handleOnClick}) => {
     const cells = pokeClasses.map(pokeClass => { 
         return (

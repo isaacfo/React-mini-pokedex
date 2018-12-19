@@ -4,7 +4,7 @@ class Pokemon {
         this.name = data.name;
         this.sprite = data.sprites.front_default;
         this.type = data.types[0].type.name;
-        // this.ability = data.abilities[0].ability.name
+        this.ability = data.abilities[0].ability.name
     }
 }
 
